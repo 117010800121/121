@@ -4,7 +4,7 @@ for i in range(365):
         dayup=dayup*(1+dayfactor)
     else:
         dayup=dayup
-print("10天休息一次:{:.2f}".format(dayupa))
+print("10天休息一次:{:.2f}".format(dayup))
 for i in range(365):
     if i% 16 in [4,5,6,7,11,12,13,14]:
         dayupa=dayupa*(1+dayfactor)
